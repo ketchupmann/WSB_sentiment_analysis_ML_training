@@ -1,5 +1,12 @@
 # WallStreetBets Sentiment Analysis & Market Regime Detection
-
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Apache_Parquet-E25A1C?style=for-the-badge&logo=apache&logoColor=white" alt="PyArrow/Parquet" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
+</div>
+<br>
 **A Machine Learning pipeline mapping raw Reddit natural language data to End-Of-Day stock returns, featuring hyperparameter tuning and Concept Drift analysis.**
 
 ## 📖 Executive Summary
