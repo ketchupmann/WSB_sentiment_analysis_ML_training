@@ -1,0 +1,13 @@
+.env
+__pycache__/
+venv/
+.DS_Store
+*.parquet
+*.json
+*.zst
+.ipynb_checkpoints/
+market_labels.csv
+best_rf_pipeline.pkl
+test_eod_data_fetching_and_labeling.py
+test_preious_day_aggs_api_call.py
+
