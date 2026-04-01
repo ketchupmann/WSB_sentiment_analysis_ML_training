@@ -17,6 +17,9 @@ Crucially, this pipeline successfully demonstrates **Concept Drift (Market Regim
 ### NLP & Machine Learning Pipeline
 * **Custom Vectorization:** Built a `TfidfVectorizer` pipeline featuring domain-specific financial stop-words (filtering out calendar/date noise) to isolate pure financial sentiment.
 * **Algorithm Testing:** Benchmarked Multinomial Naive Bayes (with Laplace smoothing to prevent zero-frequency crashes) against Logistic Regression and Random Forest architectures.
+<img width="421" height="338" alt="Screenshot 2026-03-31 at 7 54 48 PM" src="https://github.com/user-attachments/assets/8e55900b-9c8d-4770-8017-4f885da8e5ea" />
+
+  
 * **Hyperparameter Tuning:** Deployed a multi-threaded `GridSearchCV` matrix targeting the `F1-Score` to find the mathematically optimal vocabulary limits (`max_features`), n-gram ranges, and decision tree depths.
 
 ## 📊 Results & The "Concept Drift" Discovery
@@ -26,8 +29,8 @@ The overnight Grid Search optimizer trained 162 total fits using 3-Fold Cross Va
 During the Cross-Validation phase on the 2012–2022 training data, the Random Forest model achieved **In-Sample F1-Scores exceeding 61%**, proving that a distinct, tradable mathematical edge exists within the Reddit text. 
 
 However, when forced to trade blindly on the **2023–2025 Out-Of-Sample Test Set**, the performance reverted to a ~50% baseline. 
+<img width="421" height="338" alt="Screenshot 2026-03-31 at 7 54 48 PM" src="https://github.com/user-attachments/assets/80bd07c3-7b4e-4651-8c08-269f5aff6ea5" />
 
-![Best Model Score Screenshot](path/to/your/screenshot.png)
 ### The Takeaway
 The algorithm perfectly learned the slang of the 2021 Meme Stock era (prioritizing words like *robinhood*, *gme*, and *squeeze*). When the market regime shifted in 2023 to focus on the AI supercycle, the static NLP model suffered from Concept Drift. This mathematically proves that a successful social sentiment strategy requires **Continuous Walk-Forward Retraining** to dynamically adapt to evolving internet culture. In all honesty, the Walk-Forward method may not be able to find alpha as well due to simply the noise of unstructured data 
 
